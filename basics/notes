@@ -1,0 +1,26 @@
+Upper case letters are used to declare a constant variable.
+
+Python is dynamically typed and it means that the type is associated with run-time values, and not with named variables. Values stored
+in variables have type and not the name or the variable itself. We can see what type of data a variable stores using the built-in type() funct.
+The built-in id() function returns the memory address where the value referenced by the variable is stored. It basically returns the address
+of the variable in memory
+
+A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+Lists: Ordered mutable sequence of objects
+Tuples: Ordered immutable sequence of objects
+Dictionaries: Collections of unordered key:value pairs
+
+a = 3.4
+b= 2.3
+If we a // b = 1.0 as
+Python has two division operators, a single slash character for classic division and a double-slash for “floor” division
+(rounds down to nearest whole number).
+
+% - mod it's a remainder when doing division
+
+round(18 / 13, 3) output would be 1.385 so it rounds to 3 digits after coma
+
+Immutables variables ( so we cannot edit): integers, floats, strings, tuples, FrozedSets - if we change them, the id() changes
+so we cannot actually change them
+
+Mutable variables: lists, sets, dictionaries - if we .append something to the list the id() stays the same.
